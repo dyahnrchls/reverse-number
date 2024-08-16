@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+  gap: 16px;
+}
+
+.input-container {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  background-color: blueviolet;
+  color: white;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
